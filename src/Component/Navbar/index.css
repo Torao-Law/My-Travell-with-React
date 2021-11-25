@@ -53,8 +53,8 @@
 }
 
 .nav-link:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.1s ease-out;
+  text-decoration: underline;
+  color: white;
 }
 
 .fa-bars{
@@ -81,6 +81,7 @@
     width: 100%;
     height: 50vh;
     position: absolute;
+    margin-top: 0;
     top: 80px;
     left: -100%;
     opacity: 1;
@@ -100,9 +101,9 @@
 
   .nav-link{
     text-align: center;
-    padding: 0;
+    padding: 0 ;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     font-size: 24px;
   }
@@ -111,6 +112,8 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
+    text-decoration: none;
+    width: 100%;
   }
 
   .navbar-logo {
@@ -139,7 +142,6 @@
 
   .nav-link-mobile {
     display: block;
-    position: absolute;
     text-align: center;
     /* justify-content: center; */
     padding: .5rem 1rem;
